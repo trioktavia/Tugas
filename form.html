@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Form</title>
+  </head>
+  <body>
+    <form action="" method="">
+      <table border="1">
+        <tr>
+          <th colspan="3">FORM INPUT DATA MAHASISWA</th>
+        </tr>
+        <tr>
+          <td width="120px"><label for="nim">No. Induk Mahasiswa</label></td>
+          <td widht="10px">:</td>
+          <td><input type="text" name="nim" placeholder="Masukan Nim..." /></td>
+        </tr>
+        <tr>
+          <td><label for="nama">Tempat / Tgl. Lahir</label></td>
+          <td>:</td>
+          <td>
+            <input type="text" name="tempat" placeholder="Masukkan Tempat..." />
+            <input type="text" name="tempat" placeholder="Masukan Tanggal..." />
+          </td>
+        </tr>
+        <tr>
+          \
+          <td><label for="jk">Jenis Kelamin</label></td>
+          <td>:</td>
+          <td>
+            <select name="jk">
+              <optional value="" selected>- Pilih ..</optional>
+              <optional value="P">Pria</optional>
+              <optional value="W">Wanita</optional>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="jk">Status</label></td>
+          <td>:</td>
+          <td>
+            <input type="radio" name="Status" value="Aktif" />
+            <label for="jk">Aktif</label><br />
+            <input type="radio" name="status" value="Tidak" />
+            <label for="jk">Tidak</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2">
+            <input type="submit" value="Simpan" />
+            <input type="reset" value="Batal" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
